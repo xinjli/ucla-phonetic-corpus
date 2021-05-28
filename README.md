@@ -27,10 +27,28 @@ Inside each directory, there will be 1 file and 1 directory
 
 This dataset is derived from the [UCLA Phonetics Lab Archive](http://archive.phonetics.ucla.edu/). The website contains much more data and resources than we could clean in this dataset. Thank you UCLA Phonetics Lab Archive!
 
+## License
+
+Contents of this dataset and the original website are licensed under a [Creative Commons license](https://creativecommons.org/licenses/by-nc/2.0/). You are free to copy, distribute, or adapt these materials for noncommercial purposes, under the following conditions:
+
+- For any reuse or distribution, you must make clear to others the license terms of this work.
+- Any derivative work may be distributed only under a license identical to this one. That is, you cannot claim exclusive right to any creation based on these materials, nor can anyone who further adapts your creation.
+- Please attribute the material to the UCLA Phonetics Lab Archive (and this paper). See below for suggested citation format.
+
+
 ## Reference
 
-If you find this work helpful, please cite the following paper
+If you find this work helpful, please cite the following papers
 
 ```
-Li, Xinjian, et al. "Multilingual phonetic dataset for low resource speech recognition." ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2021.
+@inproceedings{li2021multilingual,
+  title={Multilingual phonetic dataset for low resource speech recognition},
+  author={Li, Xinjian and Mortensen, David R and Metze, Florian and Black, Alan W},
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6958--6962},
+  year={2021},
+  organization={IEEE}
+}
+
+2007. The UCLA Phonetics Lab Archive. Los Angeles, CA: UCLA Department of Linguistics. http://archive.phonetics.ucla.edu/.
 ```
