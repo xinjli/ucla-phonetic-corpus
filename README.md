@@ -17,11 +17,12 @@ Since the entire dataset is too large to be uploaded to Github, we only provide 
 It is a cleaned version of the dataset in the paper. Each directory on the top level is corresponding to a language name identified by its 3 character ISO id. There are currently 97 languages in this dataset.
 
 
-Inside each directory, there will be 1 file and 1 directory
+Inside each directory, there will be 3 files and 1 directory
 
-- `text`: it contains the narrow phone annotations of each utterance. The first field is the utterance id.
+- `raw`: it contains the narrow phone annotations of each utterance. The first field is the utterance id.
+- `text`: it contains the segmented and normalized transcription from the raw utterance.
+- `inventory`: it contains the phone inventory for this language, which is used to normalize the transcription. The inventory is (mostly) derived from the phoible database. 
 - `audio`: it contains all the wav format audios of each utterance. Its name is the corresponding utterance id.
-
 
 ## Acknowledgements
 
