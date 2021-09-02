@@ -11,7 +11,7 @@ If you have any suggestions or find any mistakes in the dataset, please feel fre
 
 ## Instructions
 
-Since the entire dataset is too large to be uploaded to Github, we only provide a sample of the first language (`abk`) in this repository. The full dataset can be downloaded [here](https://github.com/xinjli/ucla-phonetic-corpus/releases/download/v1.0/ucla_phonetic_corpus.tar.gz) or from the [release page](https://github.com/xinjli/ucla-phonetic-corpus/releases/tag/v1.0)
+Since the entire dataset is too large to be uploaded to Github, we only provide a sample of the first language (`abk`) in this repository. The full dataset can be downloaded from the [release page](https://github.com/xinjli/ucla-phonetic-corpus/releases/tag/v1.0)
 
 
 It is a cleaned version of the dataset in the paper. Each directory on the top level is corresponding to a language name identified by its 3 character ISO id. There are currently 97 languages in this dataset.
