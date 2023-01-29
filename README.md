@@ -13,15 +13,13 @@ If you have any suggestions or find any mistakes in the dataset, please feel fre
 
 Since the entire dataset is too large to be uploaded to Github, we only provide a sample of the first language (`abk`) in this repository. The full dataset can be downloaded from the [release page](https://github.com/xinjli/ucla-phonetic-corpus/releases/tag/v1.0)
 
-
 It is a cleaned version of the dataset in the paper. Each directory on the top level is corresponding to a language name identified by its 3 character ISO id. There are currently 97 languages in this dataset.
-
 
 Inside each directory, there will be 3 files and 1 directory
 
 - `raw`: it contains the narrow phone annotations of each utterance. The first field is the utterance id.
-- `text`: it contains the segmented and normalized transcription from the raw utterance.
-- `inventory`: it contains the phone inventory for this language, which is used to normalize the transcription. The inventory is (mostly) derived from the phoible database. 
+- `text.txt`: it contains the segmented and normalized transcription from the raw utterance.
+- `inventory`: it is directory contains the unique phoneme/phone inventory for this language. It is derived from `text.txt`
 - `audio`: it contains all the wav format audios of each utterance. Its name is the corresponding utterance id.
 
 ## Acknowledgements
